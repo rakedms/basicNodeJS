@@ -1,0 +1,11 @@
+
+var http= require('http')
+const host='localhost'
+const port=3000
+
+http.createServer(function(req,res){
+ res.write("Log in")
+ res.end()
+}).listen(3000)
+
+console.log("server started"+port)
